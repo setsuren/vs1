@@ -1,0 +1,17 @@
+numpy的操作
+1.生成
+2.图像操作
+3.合并
+4.排序
+cv2显示图片：cv2.imshow('jin',jin1)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+cv2.cvtcolor()
+cv2.resize()
+cv2识别人脸： haar人脸特征，github下载
+给其他特征，可以识别其他object
+CascadeClassifier级联分类器
+cv2操作视频：
+cap = cv2.VideoCapture('路径')
+flag,frame = cap.read()
+保存视频:cv2.videoWriter
